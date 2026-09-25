@@ -1,0 +1,35 @@
+local Workspace = game:GetService("Workspace")
+
+Workspace.ChildAdded:Connect(function(entity)
+
+    if entity.Name ~= "RushMoving" then
+        return
+    end
+
+    task.wait(1)
+
+    -- Mark as Nightmare Rush
+    if not entity:FindFirstChild("Nightmare") then
+        local Nightmare = Instance.new("BoolValue")
+        Nightmare.Name = "Nightmare"
+        Nightmare.Parent = entity
+    end
+
+    -- Change Rush's appearance
+    local RushNew = entity:FindFirstChild("RushNew")
+
+    if RushNew then
+        local Attachment = RushNew:FindFirstChild("Attachment")
+
+        if Attachment then
+            local Particle = Attachment:FindFirstChild("ParticleEmitter")
+
+            if Particle then
+                Particle.Texture =
+                    "http://www.roblox.com/asset/?id=10888024887"
+
+                Particle.Brightness = 10
+            end
+        end
+    end
+end)
