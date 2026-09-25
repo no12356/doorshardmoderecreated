@@ -1,0 +1,84 @@
+local Creator = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/no12356/doorz/main/folder/THISSCRIPTWASNTMADEBYME"
+))()
+
+local Depth = Creator.createEntity({
+
+    CustomName = "Depth",
+
+    Model = "https://github.com/no12356/Doors-Hardmode-Remake/raw/main/models/Depth.rbxm",
+
+    Speed = 350,
+
+    DelayTime = 5,
+
+    HeightOffset = 1,
+
+    CanKill = true,
+
+    KillRange = 100,
+
+    BreakLights = true,
+
+    BackwardsMovement = false,
+
+    FlickerLights = {
+        true,
+        1,
+    },
+
+    Cycles = {
+        Min = 2,
+        Max = 2,
+        WaitTime = 2,
+    },
+
+    CamShake = {
+        true,
+        {5, 15, 0.1, 1},
+        100,
+    },
+
+    Jumpscare = {
+        true,
+        {
+            Image1 = "https://github.com/no12356/Doors-Hardmode-Remake/raw/main/jumpscares/depth.png",
+
+            Image2 = "https://github.com/no12356/Doors-Hardmode-Remake/raw/main/jumpscares/depth.png",
+
+            Shake = true,
+
+            Sound1 = {
+                10483790459,
+                {Volume = 0.5},
+            },
+
+            Sound2 = {
+                5263560566,
+                {Volume = 0.5},
+            },
+
+            Flashing = {
+                true,
+                Color3.fromRGB(50, 115, 108),
+            },
+
+            Tease = {
+                false,
+                Min = 1,
+                Max = 5,
+            },
+        },
+    },
+
+    CustomDialog = {
+        "You died to who you call Depth",
+        "Depth is faster than Rush and Ambush",
+        "And he can rebound 2 times",
+        "Use what you learned from Ambush and Rush though.",
+        "I am nerfing all of the entities",
+        "To not spawn in no-hiding-spot rooms",
+    },
+})
+
+Creator.runEntity(Depth)
