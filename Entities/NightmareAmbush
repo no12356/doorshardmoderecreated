@@ -1,0 +1,35 @@
+local Workspace = game:GetService("Workspace")
+
+Workspace.ChildAdded:Connect(function(entity)
+
+    if entity.Name ~= "AmbushMoving" then
+        return
+    end
+
+    task.wait(1)
+
+    -- Mark as Nightmare Ambush
+    if not entity:FindFirstChild("Nightmare") then
+        local Nightmare = Instance.new("BoolValue")
+        Nightmare.Name = "Nightmare"
+        Nightmare.Parent = entity
+    end
+
+    -- Change Ambush's appearance
+    local RushNew = entity:FindFirstChild("RushNew")
+
+    if RushNew then
+        local Attachment = RushNew:FindFirstChild("Attachment")
+
+        if Attachment then
+            local Particle = Attachment:FindFirstChild("ParticleEmitter")
+
+            if Particle then
+                Particle.Texture =
+                    "https://create.roblox.com/marketplace/asset/10826375579/Nightmare-ambush-png-doors"
+
+                Particle.Brightness = 10
+            end
+        end
+    end
+end)
