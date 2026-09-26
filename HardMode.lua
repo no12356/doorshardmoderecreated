@@ -91,7 +91,7 @@ end)()
 -- GreenDepth
 coroutine.wrap(function()
     while true do
-        wait(2000)
+        wait(2500)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/GreenDepth"))()
