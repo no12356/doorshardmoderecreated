@@ -14,7 +14,7 @@ coroutine.wrap(function()
         wait(70)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/different%20depth"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/Depth"))()
     end
 end)()
 
@@ -24,7 +24,7 @@ coroutine.wrap(function()
         wait(305)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Doors-Hardmode-Remake/main/Entities/smiler"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/Smiler"))()
     end
 end)()
 
@@ -34,7 +34,7 @@ coroutine.wrap(function()
         wait(140)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Doors-Hardmode-Remake/refs/heads/main/Entities/trauma"))()
+loadstring(game:HttpGet("https://raw.https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/Trauma"))()
     end
 end)()
 
@@ -44,7 +44,7 @@ coroutine.wrap(function()
         wait(230)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Doors-Hardmode-Remake/refs/heads/main/Entities/nightmarerushh"))()
+loadstring(game:HttpGet("https://https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/NightmareRush"))()
     end
 end)()
 
@@ -54,7 +54,7 @@ coroutine.wrap(function()
         wait(180)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Doors-Hardmode-Remake/refs/heads/main/Entities/vhssans"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/Vhs!Sans"))()
     end
 end)()
 
@@ -74,7 +74,7 @@ coroutine.wrap(function()
         wait(345)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Doors-Hardmode-Remake/main/Entities/NightmareAmbush"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/NightmareAmbush"))()
     end
 end)()
 
@@ -84,7 +84,7 @@ coroutine.wrap(function()
         wait(450)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Doors-Hardmode-Remake/main/Entities/200"))()
+loadstring(game:HttpGet("https://https://raw.githubusercontent.com/no12356/doorshardmoderecreated/main/Entities/200"))()
     end
 end)()
 
